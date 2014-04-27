@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Prototype" type="javaScript">
+    <properties>
+      <option name="frameworkName" value="Prototype" />
+    </properties>
+    <CLASSES>
+      <root url="file://$USER_HOME$/Documents/Code/Library/prototype.js" />
+    </CLASSES>
+    <DOCUMENTATION>
+      <root url="http://api.prototypejs.org" />
+    </DOCUMENTATION>
+    <SOURCES />
+  </library>
+</component>

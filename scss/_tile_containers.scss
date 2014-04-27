@@ -1,0 +1,72 @@
+
+#page_container {
+  width: $pageWidth;
+  height: $pageHeight;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+#square_container {
+  width: $squareWidth * 4;
+  height: $squareWidth * 7;
+  margin-left: auto;
+  margin-right: auto;
+}
+div#engineer_container {
+  margin-left: $squareWidth * 3;
+  margin-top: $squareHeight;
+
+}
+div#coderdojogirls_container {
+  margin-left: $squareWidth * 2;
+  margin-top: 0;
+  z-index: 9;
+}
+div#coderdojomentor_container {
+  margin-left: $squareWidth;
+  margin-top: 0;
+  color: #FFFFFF;
+  @include no-right-shadow;
+}
+
+div#cycle_container {
+  margin-left: 0;
+  margin-top: $squareHeight;
+}
+
+div#music_container {
+  margin-left: 0;
+  margin-top: $squareHeight * 2;
+}
+div#contact_container {
+  margin-left: $squareWidth;
+  margin-top: $squareHeight * 3;
+
+}
+div#code_container {
+  margin-left: $squareWidth * 2;
+  margin-top: $squareHeight * 3;
+}
+
+div#a_container {
+  margin-left: $squareWidth * 3;
+  margin-top: $squareHeight * 4;
+}
+div#b_container {
+  margin-left: $squareWidth * 3;
+  margin-top: $squareHeight * 5;
+}
+div#c_container {
+  margin-left: $squareWidth * 2;
+  margin-top: $squareHeight * 6;
+}
+div#d_container {
+  margin-left: $squareWidth;
+  margin-top: $squareHeight * 6;
+  @include no-right-shadow;
+}
+div#e_container {
+  margin-left: 0;
+  margin-top: $squareHeight * 5;
+  z-index: 9;
+}

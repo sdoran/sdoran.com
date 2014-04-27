@@ -1,0 +1,120 @@
+body {
+  text-align: center; }
+
+#page_container {
+  width: 500px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px; }
+
+#square_container {
+  width: 320px;
+  height: 560px;
+  margin-left: auto;
+  margin-right: auto; }
+
+div#engineer_container {
+  margin-left: 240px;
+  margin-top: 50px; }
+
+div#coderdojogirls_container {
+  margin-left: 160px;
+  margin-top: 0;
+  z-index: 9; }
+
+div#coderdojomentor_container {
+  margin-left: 80px;
+  margin-top: 0;
+  color: #FFFFFF;
+  box-shadow: 0 10px 10px #888888; }
+
+div#cycle_container {
+  margin-left: 0;
+  margin-top: 50px; }
+
+div#music_container {
+  margin-left: 0;
+  margin-top: 100px; }
+
+div#contact_container {
+  margin-left: 80px;
+  margin-top: 150px; }
+
+div#code_container {
+  margin-left: 160px;
+  margin-top: 150px; }
+
+div#a_container {
+  margin-left: 240px;
+  margin-top: 200px; }
+
+div#b_container {
+  margin-left: 240px;
+  margin-top: 250px; }
+
+div#c_container {
+  margin-left: 160px;
+  margin-top: 300px; }
+
+div#d_container {
+  margin-left: 80px;
+  margin-top: 300px;
+  box-shadow: 0 10px 10px #888888; }
+
+div#e_container {
+  margin-left: 0;
+  margin-top: 250px;
+  z-index: 9; }
+
+div.tile {
+  /*position: relative;*/
+  width: 80px;
+  height: 50px;
+  background-color: #2951fc;
+  color: #FFFFFF;
+  vertical-align: 50%;
+  /*border-radius: 50px;*/
+  border: thin solid darkblue;
+  box-shadow: 10px 10px 10px #888888;
+  position: absolute;
+  z-index: 10; }
+
+div.tile:hover {
+  box-shadow: 5px 5px 5px #888888;
+  border-color: #2951fc; }
+
+div.button_icon {
+  width: 80px;
+  height: 50px;
+  background-position: center center;
+  background-repeat: no-repeat; }
+
+div.tile span {
+  display: none; }
+
+div.detail_tile {
+  width: 160px;
+  height: 100px;
+  position: absolute;
+  text-align: center;
+  display: none;
+  vertical-align: 50%; }
+
+div#detail_tile_1 {
+  margin-left: 80px;
+  margin-top: 50px; }
+
+div#detail_tile_2 {
+  margin-left: 80px;
+  margin-top: 200px; }
+
+div.detail_tile.on {
+  background-color: aliceblue;
+  display: block; }
+
+div#engineer_container {
+  background-image: url(../img/tiles/css-code-icon-48.png); }
+
+div#coderdojogirls_container {
+  background-image: url("../img/tiles/coderdojogirls-icon-48-on.png"); }

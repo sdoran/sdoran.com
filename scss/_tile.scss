@@ -1,0 +1,60 @@
+div.tile {
+  /*position: relative;*/
+  width: $squareWidth;
+  height: $squareHeight;
+  background-color: #2951fc;
+  color: #FFFFFF;
+  vertical-align: 50%;
+  /*border-radius: 50px;*/
+  border: thin solid darkblue;
+  box-shadow: 10px 10px 10px #888888;
+  position: absolute;
+  z-index: 10;
+}
+
+div.tile:hover {
+  box-shadow: 5px 5px 5px #888888;
+  border-color: #2951fc;
+
+}
+
+
+div.button_icon {
+  width: $squareWidth;
+  height: $squareHeight;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+div.tile span {
+  display: none;
+}
+
+div.detail_tile {
+  width: $squareWidth * 2;
+  height: $squareHeight * 2;
+  position: absolute;
+  text-align: center;
+  display: none;
+  vertical-align: 50%;
+}
+
+div#detail_tile_1 {
+  margin-left: $squareWidth;
+  margin-top: $squareHeight;
+}
+div#detail_tile_2  {
+  margin-left: $squareWidth;
+  margin-top: $squareHeight * 4;
+}
+div.detail_tile.on {
+  background-color: aliceblue;
+  display: block;
+}
+
+div#engineer_container {
+  background-image: url(../img/tiles/css-code-icon-48.png);
+}
+div#coderdojogirls_container {
+  background-image: url('../img/tiles/coderdojogirls-icon-48-on.png');
+}
